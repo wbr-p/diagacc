@@ -1,0 +1,15 @@
+Package: diagacc
+Type: Package
+Title: Diagnostic Accuracy
+Version: 0.1.0
+Author: Philipp Weber/Antonia Zapf
+Maintainer: Philipp Weber <p.weber@uke.de>
+Description: The package is designed to provide AUC, sensitivity, specificity and predictive value estimates for diagnostic tests. 
+    This is a preliminary version and will be periodically updated.
+License: GPL >=2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    purrr
+RoxygenNote: 7.2.3
