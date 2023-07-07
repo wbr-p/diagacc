@@ -90,6 +90,7 @@ cov_matrix <- function(df, groups_status_full, c_s_matrices, patient_matrices, r
                (diag(patient_matrices$incomp_dis[[i]]$completed.count, nrow = length(patient_matrices$incomp_dis[[i]]$completed.count), ncol = length(patient_matrices$incomp_dis[[i]]$completed.count))*
                   solve(c_s_matrices$incomp_dis)*
                   diff_complete_sum$sums[diff_complete_sum$identifier == 0 & diff_complete_sum$reference == 1])))
+     i <- i+1
     }
 
     covma_incomp_dis <- covma_incomp_dis[1,1]*mat
@@ -140,6 +141,7 @@ cov_matrix <- function(df, groups_status_full, c_s_matrices, patient_matrices, r
   covma_comp[is.na(covma_comp)] <- 0
   covma_incomp_dis[is.na(covma_incomp_dis)] <- 0
   covma_incomp_health[is.na(covma_incomp_health)] <- 0
+
 
 
   cov_matrix <- covma_comp + covma_incomp_dis + covma_incomp_health
