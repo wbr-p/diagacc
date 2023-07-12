@@ -23,3 +23,5 @@ Functionality and convenience features that are planned but not yet implemented 
 The easiest way to install this package is to use the 'devtools' Package from CRAN and execute the command
 'install_github("wbr-p/diagacc")'.
 
+# Issues
+Should using this Package result in clearly false estimates or you discover bugs of any sort, please file an issue with a minimal reproducible counterexample.
