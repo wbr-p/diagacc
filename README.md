@@ -8,8 +8,7 @@ area under the curve of the receiver operating characteristic, sensitivity and s
 including confidence intervals.
 
 # Notes
-This is an early version of the Package, uploaded in order to be submitted in conjunction with the paper
-'Diagnostic test accuracy in longitudinal study settings: Theoretical approaches with use cases from clinical practice'.
+This is an early version of the Package, uploaded in order to be submitted in conjunction with an upcoming publication.
 
 Functionality and convenience features that are planned but not yet implemented include:
 
